@@ -1,6 +1,10 @@
 import React from "react";
 
 const Footer = () => {
+  function submitHandler(){
+   
+    alert("mail subscribed")
+  }
   return (
     <footer>
       <div className="banner">
@@ -11,8 +15,8 @@ const Footer = () => {
         <div className="tag">
           <label>News Letter</label>
           <div>
-            <input type="text" placeholder="E-mail" />
-            <button>Subscribe</button>
+            <input type="text" placeholder="E-mail"  />
+            <button onClick={submitHandler}>Subscribe</button>
           </div>
           <p>Sign up with your email address to receice news and updates!</p>
         </div>

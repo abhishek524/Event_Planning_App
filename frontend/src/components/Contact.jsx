@@ -56,7 +56,7 @@ const Contact = () => {
         <div className="banner">
           <div className="item">
             <iframe
-              src="https://www.google.com/maps/place/Nagpur,+Maharashtra/@21.1610061,78.9076984,11z/data=!4m6!3m5!1s0x3bd4c0a5a31faf13:0x19b37d06d0bb3e2b!8m2!3d21.1458004!4d79.0881546!16zL20vMDJjOTht?entry=ttu"
+              src=""
               style={{ border: 0, width: "100%", height: "450px" }}
               allowFullScreen=""
               loading="lazy"
